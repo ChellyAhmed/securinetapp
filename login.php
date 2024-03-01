@@ -31,8 +31,8 @@ if (!array_key_exists("message", $_SESSION)) {
     <h1>Log in</h1>
     <p>
         There are two protected pages in this website.<br>
-        The first one is the user page. (loggedin.php)<br>
-        The second one is in the admin page. (admin.php)<br>
+        The first one is the admin page. (admin.php)<br>
+        The second one is the user page. (loggedin.php)<br>
     </p>
     <form action="login-check.php" method="post">
         <label for="userEmail">User Email:</label>
@@ -54,8 +54,7 @@ if (!array_key_exists("message", $_SESSION)) {
         crossorigin="anonymous"></script>
 
 <div class="login-footer">
-    <span><small><i>This website is made with ♥ for the securinets hackathon </i></small> </span>
-
+    <span><small><i>This web app is made with ♥ by Ahmed Chelly for the securinets hackathon </i></small> </span>
 </div>
 </body>
 
