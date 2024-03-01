@@ -18,7 +18,7 @@
     width: 100%;
     height: auto;
     background-color: rgba(248, 249, 250, 85%);
-    top: 100%;
+    bottom: 0;
     line-height: normal;
 
 }
