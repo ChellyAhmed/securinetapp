@@ -11,7 +11,7 @@ services:
   sql_db:
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: degla
+      MYSQL_ROOT_PASSWORD: georgerrmartin
       MYSQL_DATABASE: securinetappah
     volumes:
       - ./db:/docker-entrypoint-initdb.d

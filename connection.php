@@ -1,3 +1,3 @@
 <?php
-$conn = new mysqli('sql_db', 'root', 'degla', 'securinetappah');
+$conn = new mysqli('sql_db', 'root', 'georgerrmartin', 'securinetappah');
 ?>

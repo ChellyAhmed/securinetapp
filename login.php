@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION["thisUser"] = 0;
 if (!array_key_exists("message", $_SESSION)) {
     $_SESSION["message"] = "";
 } else if ($_SESSION["message"] == "Invalid login") {
@@ -30,9 +31,9 @@ if (!array_key_exists("message", $_SESSION)) {
 <div class="main-login-box">
     <h1>Log in</h1>
     <p>
-        There are two protected pages in this website.<br>
-        The first one is the admin page. (admin.php)<br>
-        The second one is the user page. (loggedin.php)<br>
+        dummyAuth was probably not the best choice for this web app. But it's okay, we're learning. <br>
+        The admin wanted to improve the security of the web app, so he replaced the world map by the map of Essos and Westeros. <br>
+        Try to access his page. 
     </p>
     <form action="login-check.php" method="post">
         <label for="userEmail">User Email:</label>

@@ -1,3 +1,11 @@
+<?php
+
+session_start();
+if ($_SESSION["thisUser"] == 0){
+    header("Location: login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

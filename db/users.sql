@@ -19,10 +19,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`userId`, `userName`, `password`, `userEmail`) VALUES
-(1, 'admindegla', 'admindegla', 'admindegla');
+(1, 'Jon Snow', 'he1s4egonTar!aryen', 'jon.snow@nightswatch.wall');
 
 INSERT INTO `users` (`userId`, `userName`, `password`, `userEmail`) VALUES
-(2, 'userdegla', 'userdegla', 'userdegla');
+(2, 'arya stark', 'nymeria4olf', 'arya.stark@gmail.com');
 
 --
 -- Indexes for table `users`
